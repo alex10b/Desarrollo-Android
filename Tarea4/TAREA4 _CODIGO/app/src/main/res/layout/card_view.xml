@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/borde"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            >
+   <ImageView
+           android:layout_height="500dp"
+           android:layout_width="400dp"
+           android:src="@drawable/perromano"
+           android:id="@+id/imageVC"
+
+
+           android:layout_gravity="center"
+
+
+           >
+
+   </ImageView>
+<LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+       android:layout_gravity="center"
+        android:background="@drawable/borde"
+       >
+    <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/hueso2"
+            android:id="@+id/cVImageBtn"
+            >
+
+    </ImageButton>
+
+
+    <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textSize="38dp"
+            android:layout_below="@+id/imageV"
+            android:text="pancho"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/cVName"
+
+            >
+    </TextView>
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="38dp"
+            android:layout_below="@+id/imageV"
+            android:text="10"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/cVNumber"
+            >
+
+    </TextView>
+
+    <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+            android:background="@drawable/arco"
+
+
+            >
+
+    </ImageButton>
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

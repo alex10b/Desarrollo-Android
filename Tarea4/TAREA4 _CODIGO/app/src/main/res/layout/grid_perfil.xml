@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+    <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/max"
+
+            >
+
+
+    </ImageView>
+
+
+
+
+
+
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+android:layout_gravity="bottom|center"
+
+            android:background="@drawable/arco"
+
+
+            >
+
+    </ImageButton>
+
+    <TextView
+            android:id="@+id/votos"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:elevation="40dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="16dp"
+
+
+             android:background="#9000"
+            android:textSize="100dp"
+            android:visibility="visible"></TextView>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:gravity="bottom|left"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="45dp"
+            android:layout_gravity="bottom">
+
+    </TextView>
+</FrameLayout>

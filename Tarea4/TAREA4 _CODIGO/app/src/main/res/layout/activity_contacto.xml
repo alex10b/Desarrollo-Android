@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Contacto"
+        android:orientation="vertical"
+      >
+    <include android:id="@+id/miActionBarMain"
+
+            layout="@layout/action_bar">
+
+
+    </include>
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:text="Contacto"
+                android:layout_gravity="center_horizontal">
+
+
+        </TextView>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email">
+
+        </TextView>
+        <EditText
+                android:id="@+id/mail"
+                android:autofillHints="nombre"
+                android:layout_width="@dimen/form"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                >
+
+        </EditText>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asunto">
+
+        </TextView>
+
+        <EditText
+                android:id="@+id/subj"
+                android:layout_width="@dimen/form"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                >
+
+        </EditText>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensaje">
+
+        </TextView>
+        <EditText
+                android:id="@+id/mensaje"
+                android:layout_width="@dimen/form"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                >
+        </EditText>
+<Button
+       android:layout_marginTop="40dp"
+        android:id="@+id/btnEnviar"
+        android:layout_width="@dimen/form"
+        android:layout_height="wrap_content"
+    android:text="Enviar"
+    android:background="@color/colorPrimary">
+
+</Button>
+    </LinearLayout>
+
+</LinearLayout>
